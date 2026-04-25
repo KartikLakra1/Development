@@ -1,6 +1,6 @@
 import "./App.css";
-import Test from "./components/Test";
-import TodoContainer from "./components/TodoContainer";
+import Test from "./components/TodoComponents/Test.jsx";
+import TodoContainer from "./components/TodoComponents/TodoContainer.jsx";
 
 function App() {
   return (

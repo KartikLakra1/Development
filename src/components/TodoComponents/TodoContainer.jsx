@@ -1,5 +1,5 @@
 import { useState } from "react";
-import EditItem from "./EditItem";
+import EditItem from "./EditItem.jsx";
 
 const TodoContainer = () => {
   const [todos, setTodos] = useState([]);
