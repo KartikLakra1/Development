@@ -1,13 +1,11 @@
 import "./App.css";
-import Test from "./components/TodoComponents/Test.jsx";
 import TodoContainer from "./components/TodoComponents/TodoContainer.jsx";
+import TodoHero from "./components/TodoComponents/TodoHero.jsx";
 
 function App() {
   return (
     <>
-      <h1>Todo App </h1>
-      {/* <Test /> */}
-      <TodoContainer />
+      <TodoHero />
     </>
   );
 }
